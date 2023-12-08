@@ -77,7 +77,7 @@ def john_voted() -> None:
         writer = csv.writer(csvfile)
         writer.writerow(["john"])
         
-def count_votes() -> Tuple(int, int):
+def count_votes() -> Tuple[int, int]:
     """
     This function should return a tuple containing the number
     of votes john has and the number of votes jane has.
